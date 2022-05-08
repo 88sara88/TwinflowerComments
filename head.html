@@ -1,0 +1,40 @@
+<!-- /* top of website image */ -->
+<head>  
+    
+    <title>Food</title>
+    <link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/style.css">
+    <style>
+      body, html {
+        height: 100%;
+        margin: 0;
+      }
+      
+      .bg {
+        /* The image used */
+        background-image: url("../../images/websiteart.jpg");     
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      @media only screen {        /*iphone size formatting*/
+        .bg {display:block;} 
+        .bg {background-size: 250px; height: 25%; }
+      }
+
+      @media only screen and (min-width:768px) {  /*ipad size formatting*/
+        .bg {display:block;} 
+      }
+
+      @media only screen and (min-width: 1000px) {        /*computer size formatting*/
+        .bg {display:block;} 
+        .bg {background-size: 400px; height: 40%; }
+      }
+
+
+
+      </style>
+</head>
