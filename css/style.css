@@ -1,0 +1,373 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+body {
+    background-color: rgb(255, 255, 255);
+    color:rgb(27, 78, 57);
+    font-family: Georgia, serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #0096b1;
+    color: black;
+}
+
+
+
+/*Navigation bar formatting*/
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  border-top: 3px solid rgb(136, 136, 136);
+  border-bottom: 3px solid rgb(136, 136, 136);
+  font-family: Georgia, serif;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(185, 185, 253);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+/*formatting that applies to all*/
+
+.tablecolumn {
+    width: 33%;
+    float: left;
+}
+
+.tablecolumn li{
+    margin: 100px 20px 20px 20px;
+}
+
+.wrapper h1 {
+    padding: 30px 30px 20px;
+    font-size: 50px;
+    color: #111;
+    line-height: 44px;
+    text-align: center;
+    clear: both;
+}
+
+.wrapper h3 {
+    padding: 30px 30px 20px;
+    font-size: 30px;
+    color: #111;
+    line-height: 44px;
+    text-align: center;
+    clear: both;
+}
+
+.wrapper p {
+    padding: 10px 0px 10px 0px;
+}
+
+.column {
+    float: left;
+    width: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.recipecard {
+    border: 3px solid rgb(136, 136, 136);
+    background-color: rgb(214, 214, 214);
+    padding: 50px;
+    margin: 100px 20px 20px 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recipecard-circle-image {
+    position: relative;
+    z-index: 5; /*makes this above other stuff*/
+    width: 70%;
+    /* margin: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    top: -150px; 
+    margin-bottom: -160px;
+}
+
+.recipecard h2{
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    /* top: -150px; */
+    font-size: 35px;
+    color: #111;
+    line-height: 44px;
+}
+
+.recipecard h3{
+    position: relative;
+    text-align: left;
+    padding: 10px;
+    /* top: -150px; */
+    font-size: 20px;
+    color: #111;
+    line-height: 44px;
+}
+
+.img-body-mobile {
+    padding: 30px;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+.img-body {
+    display: none;
+}
+
+
+.img-top-of-page {
+    width: 100%;
+    padding: 0 0 10px 0;
+}
+
+.intro-section h2 {  /*specific page title*/
+    padding: 30px 15px 10px;
+    font-size: 35px;
+    color: #111;
+    line-height: 44px;
+    text-align: center;
+}
+
+.intro-section article {
+    padding: 0 0 10% 30px;
+}
+
+.intro-section p {
+    padding: 0px 0px 10px 0px;
+}
+
+.recipe-quick-card-container {
+    overflow: auto;
+}
+
+.recipe-quick-card {
+    width: auto;
+    /*border: 3px solid rgb(136, 136, 136);*/
+    margin: 20px;
+    float: center;
+    text-align: center;
+}
+
+.recipe-quick-card img{
+    width: 100%;
+}
+
+.recipe-quick-card a{
+    font-size: 30px;
+    color: #111;
+    line-height: 44px;
+    text-decoration: none;
+
+}
+
+.recipe-quick-card a:hover {
+    color: rgb(185, 185, 253);
+  }
+ 
+/*iPhone content formatting*/
+
+.wrapper {
+    margin: 0 auto;
+    width: 87%
+}
+
+
+.column {
+    width: 100%;
+}
+
+.recipe-quick-card {
+    width: auto;
+    margin: 20px;
+}
+
+
+/*iPad size formatting*/
+
+@media only screen and (min-width: 768px) {
+
+    .wrapper {
+        margin: 0 auto;
+        width: 600px;
+    } 
+    
+
+    .column {
+        width: 100%;
+    }
+
+    .recipecard-circle-image {
+        padding: 40px;
+        width: 53%;
+        top: -210px;
+        margin-bottom: -250px;
+    }
+
+    .recipecard {
+        margin: 120px 20px 20px 20px;
+
+    }
+
+    .recipe-quick-card {
+        width: 250px;
+        margin: 25px;
+        float: left;
+    }
+
+    .recipe-quick-card img:hover {
+        opacity: 0.5;
+    }
+        
+}
+
+/*computer size formatting*/
+
+@media only screen and (min-width: 1000px) {
+
+    .wrapper {
+        margin: 0 auto 20px auto;
+        width: 1000px;
+    }
+
+    .intro-section article {
+        width: 40%;
+        float: right;
+        padding: 0% 5% 0% 5%;
+    }
+
+     .img-body {
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 3%;
+     }
+
+
+    .img-body-mobile {
+                display: none;
+            }
+    
+    
+    .intro-section h2 {
+        padding: 20px 0px 30px 0px;
+ 
+    }
+    
+
+    .img-top-of-page {
+        width: 50%;
+        float: left;
+     }
+
+    .column {
+        width: 50%;
+    }
+
+    .recipecard-circle-image {
+        padding: 40px;
+        width: 45%;
+        top: -210px;
+        margin-bottom: -250px;
+    }
+
+    .recipecard {
+        margin: 200px;
+    }
+
+    .recipe-quick-card {
+        width: 263px;
+        margin: 30px;
+        float: left;
+    }
+
+}
