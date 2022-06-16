@@ -1,0 +1,8 @@
+_id: 67ed9790-ed0b-11ec-97aa-2d0f99266166
+_parent: '{{ page.url | absolute_url }}'
+replying_to_uid: ''
+message: hi
+name: Sara
+email: 672befa3b65a9a66574769017de5ac7e
+rating: '4'
+date: 1655339378
