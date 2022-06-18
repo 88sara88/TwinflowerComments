@@ -1,0 +1,8 @@
+_id: 873c76d0-ef58-11ec-a508-8de5ae9e7afe
+_parent: '{{ page.url | absolute_url }}'
+replying_to_uid: ''
+message: Testing the star rating
+rating: '5'
+name: Sara
+email: 672befa3b65a9a66574769017de5ac7e
+date: 1655592404
