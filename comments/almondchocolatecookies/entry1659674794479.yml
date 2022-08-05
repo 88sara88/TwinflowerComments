@@ -1,0 +1,8 @@
+_id: 9509d000-1479-11ed-8788-076016d6896b
+_parent: '{{ page.url | absolute_url }}'
+replying_to_uid: ''
+message: "<a href=\"https://www.resepmama.id\" title=\"Situs Resep Indonesia\">Situs Resep Indonesia</a>\r\n\r\nNice Recipes!!"
+rating: '4'
+name: resepmama.id
+email: 3979576bcdcbd166d005a5b225e1bc52
+date: 1659674794
