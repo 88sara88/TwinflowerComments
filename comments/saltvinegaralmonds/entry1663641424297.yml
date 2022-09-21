@@ -1,0 +1,10 @@
+_id: 1ca14a70-388d-11ed-bee0-598e3cf551a9
+_parent: '{{ page.url | absolute_url }}'
+replying_to_uid: ''
+message: >-
+  Great almond recipe! I liked them more than the store bought ones. Great
+  balance between the salt and acidity.
+rating: '5'
+name: Riley
+email: 7d7c01c30e3c71cefbf9bafb4828ab28
+date: 1663641424
